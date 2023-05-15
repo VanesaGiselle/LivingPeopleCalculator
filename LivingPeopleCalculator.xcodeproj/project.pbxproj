@@ -16,6 +16,8 @@
 		930632722A11CEDD00F35562 /* LivingPeopleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930632712A11CEDD00F35562 /* LivingPeopleTests.swift */; };
 		9306327C2A11CEDD00F35562 /* LivingPeopleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9306327B2A11CEDD00F35562 /* LivingPeopleUITests.swift */; };
 		9306327E2A11CEDD00F35562 /* LivingPeopleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9306327D2A11CEDD00F35562 /* LivingPeopleUITestsLaunchTests.swift */; };
+		9306328B2A11CF2F00F35562 /* LivingPeopleCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9306328A2A11CF2F00F35562 /* LivingPeopleCalculator.swift */; };
+		9306328D2A11CFA200F35562 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9306328C2A11CFA200F35562 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		930632572A11CED900F35562 /* LivingPeople.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LivingPeople.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		930632572A11CED900F35562 /* LivingPeopleCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LivingPeopleCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9306325A2A11CED900F35562 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9306325C2A11CED900F35562 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9306325E2A11CED900F35562 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,11 +46,13 @@
 		930632632A11CEDC00F35562 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		930632662A11CEDC00F35562 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		930632682A11CEDC00F35562 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9306326D2A11CEDD00F35562 /* LivingPeopleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LivingPeopleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9306326D2A11CEDD00F35562 /* LivingPeopleCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LivingPeopleCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		930632712A11CEDD00F35562 /* LivingPeopleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivingPeopleTests.swift; sourceTree = "<group>"; };
-		930632772A11CEDD00F35562 /* LivingPeopleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LivingPeopleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		930632772A11CEDD00F35562 /* LivingPeopleCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LivingPeopleCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9306327B2A11CEDD00F35562 /* LivingPeopleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivingPeopleUITests.swift; sourceTree = "<group>"; };
 		9306327D2A11CEDD00F35562 /* LivingPeopleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivingPeopleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9306328A2A11CF2F00F35562 /* LivingPeopleCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivingPeopleCalculator.swift; sourceTree = "<group>"; };
+		9306328C2A11CFA200F35562 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,9 +93,9 @@
 		930632582A11CED900F35562 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				930632572A11CED900F35562 /* LivingPeople.app */,
-				9306326D2A11CEDD00F35562 /* LivingPeopleTests.xctest */,
-				930632772A11CEDD00F35562 /* LivingPeopleUITests.xctest */,
+				930632572A11CED900F35562 /* LivingPeopleCalculator.app */,
+				9306326D2A11CEDD00F35562 /* LivingPeopleCalculatorTests.xctest */,
+				930632772A11CEDD00F35562 /* LivingPeopleCalculatorUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,6 +106,8 @@
 				9306325A2A11CED900F35562 /* AppDelegate.swift */,
 				9306325C2A11CED900F35562 /* SceneDelegate.swift */,
 				9306325E2A11CED900F35562 /* ViewController.swift */,
+				9306328A2A11CF2F00F35562 /* LivingPeopleCalculator.swift */,
+				9306328C2A11CFA200F35562 /* Person.swift */,
 				930632602A11CED900F35562 /* Main.storyboard */,
 				930632632A11CEDC00F35562 /* Assets.xcassets */,
 				930632652A11CEDC00F35562 /* LaunchScreen.storyboard */,
@@ -130,9 +136,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		930632562A11CED900F35562 /* LivingPeople */ = {
+		930632562A11CED900F35562 /* LivingPeopleCalculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 930632812A11CEDD00F35562 /* Build configuration list for PBXNativeTarget "LivingPeople" */;
+			buildConfigurationList = 930632812A11CEDD00F35562 /* Build configuration list for PBXNativeTarget "LivingPeopleCalculator" */;
 			buildPhases = (
 				930632532A11CED900F35562 /* Sources */,
 				930632542A11CED900F35562 /* Frameworks */,
@@ -142,14 +148,14 @@
 			);
 			dependencies = (
 			);
-			name = LivingPeople;
+			name = LivingPeopleCalculator;
 			productName = LivingPeople;
-			productReference = 930632572A11CED900F35562 /* LivingPeople.app */;
+			productReference = 930632572A11CED900F35562 /* LivingPeopleCalculator.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9306326C2A11CEDD00F35562 /* LivingPeopleTests */ = {
+		9306326C2A11CEDD00F35562 /* LivingPeopleCalculatorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 930632842A11CEDD00F35562 /* Build configuration list for PBXNativeTarget "LivingPeopleTests" */;
+			buildConfigurationList = 930632842A11CEDD00F35562 /* Build configuration list for PBXNativeTarget "LivingPeopleCalculatorTests" */;
 			buildPhases = (
 				930632692A11CEDD00F35562 /* Sources */,
 				9306326A2A11CEDD00F35562 /* Frameworks */,
@@ -160,14 +166,14 @@
 			dependencies = (
 				9306326F2A11CEDD00F35562 /* PBXTargetDependency */,
 			);
-			name = LivingPeopleTests;
+			name = LivingPeopleCalculatorTests;
 			productName = LivingPeopleTests;
-			productReference = 9306326D2A11CEDD00F35562 /* LivingPeopleTests.xctest */;
+			productReference = 9306326D2A11CEDD00F35562 /* LivingPeopleCalculatorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		930632762A11CEDD00F35562 /* LivingPeopleUITests */ = {
+		930632762A11CEDD00F35562 /* LivingPeopleCalculatorUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 930632872A11CEDD00F35562 /* Build configuration list for PBXNativeTarget "LivingPeopleUITests" */;
+			buildConfigurationList = 930632872A11CEDD00F35562 /* Build configuration list for PBXNativeTarget "LivingPeopleCalculatorUITests" */;
 			buildPhases = (
 				930632732A11CEDD00F35562 /* Sources */,
 				930632742A11CEDD00F35562 /* Frameworks */,
@@ -178,9 +184,9 @@
 			dependencies = (
 				930632792A11CEDD00F35562 /* PBXTargetDependency */,
 			);
-			name = LivingPeopleUITests;
+			name = LivingPeopleCalculatorUITests;
 			productName = LivingPeopleUITests;
-			productReference = 930632772A11CEDD00F35562 /* LivingPeopleUITests.xctest */;
+			productReference = 930632772A11CEDD00F35562 /* LivingPeopleCalculatorUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +212,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 930632522A11CED900F35562 /* Build configuration list for PBXProject "LivingPeople" */;
+			buildConfigurationList = 930632522A11CED900F35562 /* Build configuration list for PBXProject "LivingPeopleCalculator" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +225,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				930632562A11CED900F35562 /* LivingPeople */,
-				9306326C2A11CEDD00F35562 /* LivingPeopleTests */,
-				930632762A11CEDD00F35562 /* LivingPeopleUITests */,
+				930632562A11CED900F35562 /* LivingPeopleCalculator */,
+				9306326C2A11CEDD00F35562 /* LivingPeopleCalculatorTests */,
+				930632762A11CEDD00F35562 /* LivingPeopleCalculatorUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9306328D2A11CFA200F35562 /* Person.swift in Sources */,
 				9306325F2A11CED900F35562 /* ViewController.swift in Sources */,
 				9306325B2A11CED900F35562 /* AppDelegate.swift in Sources */,
 				9306325D2A11CED900F35562 /* SceneDelegate.swift in Sources */,
+				9306328B2A11CF2F00F35562 /* LivingPeopleCalculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,12 +294,12 @@
 /* Begin PBXTargetDependency section */
 		9306326F2A11CEDD00F35562 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 930632562A11CED900F35562 /* LivingPeople */;
+			target = 930632562A11CED900F35562 /* LivingPeopleCalculator */;
 			targetProxy = 9306326E2A11CEDD00F35562 /* PBXContainerItemProxy */;
 		};
 		930632792A11CEDD00F35562 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 930632562A11CED900F35562 /* LivingPeople */;
+			target = 930632562A11CED900F35562 /* LivingPeopleCalculator */;
 			targetProxy = 930632782A11CEDD00F35562 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -506,7 +514,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LivingPeople.app/LivingPeople";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LivingPeopleCalculator.app/LivingPeopleCalculator";
 			};
 			name = Debug;
 		};
@@ -530,7 +538,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LivingPeople.app/LivingPeople";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LivingPeopleCalculator.app/LivingPeopleCalculator";
 			};
 			name = Release;
 		};
@@ -581,7 +589,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		930632522A11CED900F35562 /* Build configuration list for PBXProject "LivingPeople" */ = {
+		930632522A11CED900F35562 /* Build configuration list for PBXProject "LivingPeopleCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9306327F2A11CEDD00F35562 /* Debug */,
@@ -590,7 +598,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		930632812A11CEDD00F35562 /* Build configuration list for PBXNativeTarget "LivingPeople" */ = {
+		930632812A11CEDD00F35562 /* Build configuration list for PBXNativeTarget "LivingPeopleCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				930632822A11CEDD00F35562 /* Debug */,
@@ -599,7 +607,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		930632842A11CEDD00F35562 /* Build configuration list for PBXNativeTarget "LivingPeopleTests" */ = {
+		930632842A11CEDD00F35562 /* Build configuration list for PBXNativeTarget "LivingPeopleCalculatorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				930632852A11CEDD00F35562 /* Debug */,
@@ -608,7 +616,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		930632872A11CEDD00F35562 /* Build configuration list for PBXNativeTarget "LivingPeopleUITests" */ = {
+		930632872A11CEDD00F35562 /* Build configuration list for PBXNativeTarget "LivingPeopleCalculatorUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				930632882A11CEDD00F35562 /* Debug */,

@@ -10,24 +10,17 @@ import XCTest
 
 class LivingPeopleTests: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    func testGetTheYearsWithTheMostNumberOfPeopleAlive() throws {
+        let livingPeople = LivingPeopleCalculator(people: [
+            Person(born: 1993, death: 2001),
+            Person(born: 1994, death: 1996),
+            Person(born: 1995, death: 2005)
+        ])
+        XCTAssertEqual(livingPeople.getTheYearsWithTheMostNumberOfPeopleAlive(), [1995, 1996])
     }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    
+    func testGetTheYearsWithTheMostNumberOfPeopleAlive_WithoutPeople() throws {
+        let livingPeople = LivingPeopleCalculator(people: [])
+        XCTAssertEqual(livingPeople.getTheYearsWithTheMostNumberOfPeopleAlive(), nil)
     }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-
 }
